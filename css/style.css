@@ -1,8 +1,5 @@
- *{margin: 0;
- 	padding: 0;}
-body{
- 		 background-color: black;
- 	}
+ *{margin: 0;padding: 0;}
+body{background-color: black;}
  canvas {
  	position: absolute;
  	top: 50%;
@@ -12,8 +9,7 @@ body{
  }
  
 
- button{
-
+ button{ 
  	width: 100px;
  	height: 50px;
  	position: absolute;
@@ -35,12 +31,8 @@ body{
   button:active{
  color: white;
  }
- #up{
- 	margin: -50px 0 0 400px;
- }
- #down{
- 	margin: 0px 0 0 400px;
- }
+ #up{margin: -50px 0 0 400px;}
+ #down{margin: 0px 0 0 400px;}
 
 
  @media (max-width: 920px) {
@@ -51,12 +43,8 @@ body{
  
 	 }
 
-	 #up{
-	 	margin: -50px 0 0 320px;
-	 }
-	 #down{
-	 	margin: 0px 0 0 320px;
-	 }
+	 #up{margin: -50px 0 0 320px;}
+	 #down{margin: 0px 0 0 320px;}
  }
  @media (max-width: 760px) {
  	
@@ -66,10 +54,20 @@ body{
 	margin: -150px 0 0 -240px;
  
 	 }
-	  #up{
- 		margin: -50px 0 0 240px;
-	 }
-	 #down{
-	 	margin: 0px 0 0 240px;
-	 }
+	  #up{margin: -50px 0 0 240px;}
+	 #down{margin: 0px 0 0 240px;}
+ }
+
+
+  .msg{
+ 	width: 100%;
+ 	position: absolute;
+ 	bottom: 0;
+ 	color: white;
+ 	text-align: center;
+ 	font-family: 'Square721 BT','Montserrat', sans-serif;
+ 	font-size: 20px;
+ }
+ .msg>a{
+ 	text-decoration: none; 
  }
